@@ -41,16 +41,11 @@
 	
 	<!-- HEADER -->
 	<div class="awilo_fn_header">
-		<div class="logo">
-			<a href="index.html"><img class="desktop_logo" src="img/logo-header.svg" alt="Raondata Logo" /></a>
-		</div>
-		<div class="hamburger_rapper">
-			<div class="hamburger hamburger--spring">
-				<div class="hamburger-box">
-					<div class="hamburger-inner"></div>
-				</div>
-			</div>
-		</div>
+			<a class="logo" href="#"><img class="desktop_logo" src="img/logo-header.svg" alt="Raondata Logo" /></a>
+			<ul class="language_switch">
+				<li id="en_click" class="button_lang current_lang">En</li>
+				<li id="kr_click" class="button_lang">Kr</li>
+			</ul>
 	</div>
 	<!-- /HEADER -->
 	
@@ -69,24 +64,39 @@
 						<div class="about_left">
 							<div class="l_inner">
 								<div class="awilo_fn_title_raon">
-									<h5>Our Vision</h5>
-									<h3>Digital Transformation of Human Experience</h3>
+									<h5 id="en">Our Vision</h5>
+									<h3 id="en">Augmentation of the Human Experience through Datafication</h3>
+									<h5 id="kr">라온데이터의 비전</h5>
+									<h3 id="kr">완벽한 데이터화를 기반으로 인간의 경험을 증강시킵니다.</h3>
 								</div>
 								<div class="about_desc">
-									<p>Raondata augments the human experience through data and artificial intelligence technology.</p>
+									<p id="en">Raondata augments the human experience through data and artificial intelligence technology.</p>
+									<p id="kr">라온데이터는 인간의 상호작용에 대해 고찰하고 데이터화하여 그 어떤 환경에서라도 인간의 커뮤니케이션 경험이 증강될 수 있는 솔루션을 제공합니다.</p>
 								</div>
 								<div class="about_btn">
-									<a href="#portfolio" class="awilo_fn_main_button">
-										<span>View Projects</span>
-										<span>View Projects</span>
+									<a href="#project" class="awilo_fn_main_button">
+										<span><p id="en">View Project</p><p id="kr">프로젝트 보기</p></span>
+										<span><p id="en">View Project</p><p id="kr">프로젝트 보기</p></span>
 									</a>
 								</div>
 								<div class="about_menu">
 									<ul>
-										<li><a href="#information">Technology</a></li>
-										<li><a href="#portfolio">Portfolio</a></li>
-										<li><a href="#project">Project</a></li>
-										<li><a href="#contact">FAQ</a></li>
+										<li>
+											<a id="en" href="#information">Technology</a>
+											<a id="kr" href="#information">보유 기술</a>
+										</li>
+										<li>
+											<a id="en" href="#portfolio">Portfolio</a>
+											<a id="kr" href="#portfolio">공급 내역</a>
+										</li>
+										<li>
+											<a id="en" href="#project">Product</a>
+											<a id="kr" href="#project">서비스</a>
+										</li>
+										<li>
+											<a id="en" href="#contact">FAQ</a>
+											<a id="kr" href="#contact">자주 묻는 질문</a>
+										</li>
 									</ul>
 								</div>
 							</div>
@@ -128,122 +138,57 @@
 				<!-- Shortcode: Title with Description -->
 				<div class="awilo_fn_title_raon">
 					<h5>Our Mission</h5>
-					<h3>Digitization of the human experience</h3>
+					<h3>Seamless Digitization of the Human Experience</h3>
 				</div>
 				<!-- /Shortcode: Title with Description -->
 				
 				
-				<!-- Shortcode: Services -->
-				<div class="awilo_fn_services">
+				<!-- Shortcode: Mission -->
+				<div class="awilo_fn_mission">
 					<ul>
 						<li>
-							<div class="s_item">
-								<span class="s_counter"><span>01</span></span>
+							<div class="s_item" style="
+							background-image:linear-gradient(
+								to bottom,
+								rgba(13, 24, 60, 0),
+								rgba(13, 24, 60, 0.8)
+							  ), url(img/mission-1.png); background-size:100% auto; background-position:center bottom; background-repeat:no-repeat;">
 								<div class="s_title">
-									<h3>Brand Design</h3>
-									<p>Phylon designs the process of creating and designing touchpoints between a brand and its customers to create a memorable and positive experience.</p>
+									<h3>HX Digitization</h3>
+									<p>Methods of learning and translating 'human experience' into data are being researched and developed at Raondata with the aim of delivering the ideal human experience in the future.</p>
 								</div>
-								<!-- <div class="s_btn">
-									<a class="awilo_fn_circle_link" href="#">Read More...</a>
-								</div> -->
 							</div>
 						</li>
 						<li>
-							<div class="s_item">
-								<span class="s_counter"><span>02</span></span>
+							<div class="s_item" style="
+							background-image:linear-gradient(
+								to bottom,
+								rgba(13, 24, 60, 0.2),
+								rgba(13, 24, 60, 0.6)
+							  ), url(img/mission-2.png); background-size:100% auto; background-position:center bottom; background-repeat:no-repeat;">
 								<div class="s_title">
-									<h3>Graphic Design</h3>
-									<p>Phylon creates visual content to communicate information and ideas. This can include logos, branding materials, websites, advertisements, packaging, and more.</p>
+									<h3>HX Digital Twin</h3>
+									<p>With refined 'human experience' data, AI clones optimized for specific needs can be developed to perform tasks for individuals or organizations.</p>
 								</div>
-								<!-- <div class="s_btn">
-									<a class="awilo_fn_circle_link" href="#">Read More...</a>
-								</div> -->
 							</div>
 						</li>
 						<li>
-							<div class="s_item">
-								<span class="s_counter"><span>03</span></span>
+							<div class="s_item" style="
+							background-image:linear-gradient(
+								to bottom,
+								rgba(13, 24, 60, 0),
+								rgba(13, 24, 60, 0.6)
+							  ), url(img/mission-3.png); background-size:100% auto; background-position:center bottom; background-repeat:no-repeat;">
 								<div class="s_title">
-									<h3>Industrial Design</h3>
-									<p>Phylon focuses on the design and development of products. It combines elements of engineering, ergonomics, aesthetics, and user experience to create functional and attractive products.</p>
+									<h3>HX Data Conversion</h3>
+									<p>Real-time and non-real-time conversion of disparate 'human experience' data allow individuals or organizations to appear completely different persona for specific needs.</p>
 								</div>
-								<!-- <div class="s_btn">
-									<a class="awilo_fn_circle_link" href="#">Read More...</a>
-								</div> -->
 							</div>
 						</li>
 						
 					</ul>
 				</div>
 				<!-- /Shortcode: Services -->
-				
-				
-				<!-- Shortcode: Skills in numbers -->
-				<div class="awilo_fn_skills">
-					<div class="s_title">
-						<h3>Artists & Designers in Phylon are able to achieve excellence in all areas of creatives.</h3>
-					</div>
-					<div class="s_list">
-						<ul>
-							<li>
-								<div class="sl_item">
-									<label>Graphic Design</label>
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#efc152" class="bi bi-check-circle" viewBox="0 0 16 16">
-										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-									</svg>
-								</div>
-							</li>
-							<li>
-								<div class="sl_item">
-									<label>3D Design</label>
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#5280ef" class="bi bi-check-circle" viewBox="0 0 16 16">
-										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-									</svg>
-								</div>
-							</li>
-							<li>
-								<div class="sl_item">
-									<label>Motion Graphics</label>
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#f16991" class="bi bi-check-circle" viewBox="0 0 16 16">
-										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-									</svg>
-								</div>
-							</li>
-							<li>
-								<div class="sl_item">
-									<label>Contents Development</label>
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#10a87b" class="bi bi-check-circle" viewBox="0 0 16 16">
-										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-									</svg>
-								</div>
-							</li>
-							<li>
-								<div class="sl_item">
-									<label>UI/UX Design</label>
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#efc152" class="bi bi-check-circle" viewBox="0 0 16 16">
-										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-									</svg>
-								</div>
-							</li>
-							<li>
-								<div class="sl_item">
-									<label>Marketing</label>
-									<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" fill="#5280ef" class="bi bi-check-circle" viewBox="0 0 16 16">
-										<path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
-										<path d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z"/>
-									</svg>
-								</div>
-							</li>
-						</ul>
-					</div>
-				</div>
-				<!-- /Shortcode: Skills in numbers -->
-				
 			
 			</div>
 		</section>
@@ -979,6 +924,52 @@
 <script src="js/nicescroll.js"></script>
 <script src="js/magnific-popup.js"></script>
 <script src="js/init.js"></script>
+
+<script type="text/javascript">
+var english = document.getElementById('en_click'),
+    korean = document.getElementById('kr_click'),
+    en_txt = document.querySelectorAll('#en'),
+    kr_txt = document.querySelectorAll('#kr'),
+    nb_en = en_txt.length,
+    nb_kr = kr_txt.length;
+
+english.addEventListener('click', function() {
+    langue(english,korean);
+}, false);
+
+korean.addEventListener('click', function() {
+    langue(korean,english);
+}, false);
+
+function langue(langueOn,langueOff){
+    if (!langueOn.classList.contains('current_lang')) {
+        langueOn.classList.toggle('current_lang');
+        langueOff.classList.toggle('current_lang');
+    }
+    if(langueOn.innerHTML == 'En'){
+        afficher(en_txt, nb_en);
+        cacher(kr_txt, nb_kr);
+    }
+    else if(langueOn.innerHTML == 'Kr'){
+        afficher(kr_txt, nb_kr);
+        cacher(en_txt, nb_en);
+    }
+}
+
+function afficher(txt,nb){
+    for(var i=0; i < nb; i++){
+        txt[i].style.display = 'block';
+    }
+}
+function cacher(txt,nb){
+    for(var i=0; i < nb; i++){
+        txt[i].style.display = 'none';
+    }
+}
+function init(){
+    langue(english,korean);
+}
+init();</script>
 <!-- /SCRIPTS -->
 
 </body>

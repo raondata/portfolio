@@ -27,7 +27,7 @@ body{
 	letter-spacing: 0.8px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: #fff;
+	background-color: rgb(14,31,73);
 	color: #aab1b8;
 }
 .awilo_fn_svg{
@@ -53,9 +53,7 @@ body{
 /*---------------------------------------------------*/
 /*	02) Start
 /*---------------------------------------------------*/
-body{
-	background-color: #000000;
-}
+
 .awilo_fn_content{
 	width: 100%;
 	float: left;
@@ -129,6 +127,8 @@ a.awilo_fn_circle_link:hover:after{
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
+
+
 .awilo_fn_sidebar_header .closer{
 	position: absolute;
     top: 30px;
@@ -164,11 +164,22 @@ a.awilo_fn_circle_link:hover:after{
 }
 
 .logo {
+	display:block;
 	padding:1rem;
-	background-color:rgba(18,39,91,0.6);
+	background-color:rgba(26,57,134,0.2);
 	-webkit-backdrop-filter: blur(5px);
 	backdrop-filter: blur(5px);
-	border-radius:1rem;
+	border-radius:0.5rem;
+	transition: all .3s ease;
+}
+
+.logo:hover {
+	background-color:rgba(26,57,134,0.4);
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
 }
 
 .awilo_fn_sidebar_header .menu_logo{
@@ -446,6 +457,10 @@ a.awilo_fn_circle_link:hover:after{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
+	background-image: none;
+	background-size:auto 100%; 
+	background-position:right bottom; 
+	background-repeat:no-repeat;
 }
 .awilo_fn_about .about_left{
 	width: 50%;
@@ -465,13 +480,13 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_about .about_left .about_desc p{
 	margin: 0;
 	padding: 0;
-	font-size: 22px;
+	font-size: 24px;
 	line-height: 30px;
 	color: #aab1b8;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 .awilo_fn_about .about_left .about_desc{
-	margin-bottom: 63px;
+	margin-bottom: 64px;
 }
 .awilo_fn_wrapper .awilo_fn_main_button{
 	margin: 0;
@@ -482,7 +497,7 @@ a.awilo_fn_circle_link:hover:after{
 	border: none;
 	display: block;
 	float: left;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	text-decoration: none;
 	color: #3062d7;
 	font-size: 16px;
@@ -771,6 +786,10 @@ a.awilo_fn_circle_link:hover:after{
 /*---------------------------------------------------*/
 /*	06) Shortcode: Service
 /*---------------------------------------------------*/
+#information .awilo_fn_services{
+	margin-bottom: 100px;
+}
+
 .awilo_fn_services{
 	width: 100%;
 	float: left;
@@ -806,6 +825,7 @@ a.awilo_fn_circle_link:hover:after{
 	position: relative;
 	transition: all .3s ease;
 }
+
 .awilo_fn_services .s_item:hover{
 	border-color: rgba(255,255,255,.15);
 	transform: translate3d(0px,-5px,0px);
@@ -865,11 +885,105 @@ a.awilo_fn_circle_link:hover:after{
 	line-height: 24px;
 	text-decoration: none;
 }
-#information .awilo_fn_services{
-	margin-bottom: 100px;
-}
+
 #mission .awilo_fn_services{
 	margin-bottom: 100px;
+}
+
+.awilo_fn_mission{
+	width: 100%;
+	float: left;
+	clear: both;
+}
+.awilo_fn_mission ul{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	display: flex;
+	margin-left: -30px;
+	min-width: 100%;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+.awilo_fn_mission ul li{
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+	width: 33.3333%;
+	padding-left: 30px;
+	padding-top: 16px;
+	margin-bottom: 30px;
+}
+.awilo_fn_mission .s_item{
+	width: 100%;
+	float: left;
+	clear: both;
+	height: 100%;
+	border-radius: 8px;
+	padding: 80px 44px 320px 44px;
+	position: relative;
+	transition: all .3s ease;
+}
+
+.awilo_fn_mission .s_item:hover{
+	border-color: rgba(255,255,255,.15);
+	transform: translate3d(0px,-5px,0px);
+}
+.awilo_fn_mission .s_item .s_counter{
+	width: 50px;
+	height: 90px;
+	display: block;
+	left: 46px;
+	top: -16px;
+	position: absolute;
+	background-color: #1e1427;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.awilo_fn_mission .s_item .s_counter span{
+	color: #eee;
+	font-size: 16px;
+	line-height: 34px;
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	width: 100%;
+	max-width: 100%;
+	padding: 0 2px;
+	position: absolute;
+	bottom: 0;
+	letter-spacing: 0;
+	text-align: center;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.awilo_fn_mission .s_item h3{
+	margin: 0;
+	padding: 0;
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	color: #dee0e3;
+	font-size: 24px;
+	letter-spacing: 0;
+	font-weight: 600;
+	margin-bottom: 24px;
+}
+.awilo_fn_mission .s_item p{
+	font-size: 1rem;
+	line-height: 24px;
+	letter-spacing: 0;
+	margin: 0;
+	padding: 0;
+	color: #aab1b8;
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	margin-bottom: 2rem;
+	font-weight:600;
+}
+.awilo_fn_mission .s_item .s_btn a{
+	display: block;
+	float: left;
+	font-size: 16px;
+	color: #efc152;
+	line-height: 24px;
+	text-decoration: none;
 }
 /*---------------------------------------------------*/
 /*	07) Shortcode: Skills
@@ -954,9 +1068,11 @@ a.awilo_fn_circle_link:hover:after{
 
 #information{
 	padding: 180px 0 180px 0;
+	background-color: #000;
 }
 #mission{
 	padding: 180px 0 180px 0;
+	background-color: #000;
 }
 
 #portfolio .awilo_fn_title{
@@ -1360,10 +1476,12 @@ a.awilo_fn_circle_link:hover:after{
 
 #portfolio{
 	padding: 193px 0 195px 0;
+	background-color: #000;
 }
 
 #project{
 	padding: 193px 0 195px 0;
+	background-color: #000;
 }
 
 /*---------------------------------------------------*/
@@ -1695,6 +1813,7 @@ a.awilo_fn_circle_link:hover:after{
 
 #contact{
 	padding: 4.5rem 0 4.5rem 0;
+	background-color: #000;
 }
 
 input.button-form {
@@ -2064,6 +2183,7 @@ input.button-form:hover {
 #partners{
 	padding: 191px 0 195px 0;
 	overflow-x:hidden;
+	background-color: #000;
 }
 /*---------------------------------------------------*/
 /*	22) Responsive
@@ -2076,16 +2196,27 @@ input.button-form:hover {
 		padding: 5px 40px;
 		margin: 0 auto;
 	}
+	.awilo_fn_about .about_left{
+		width: 50%;
+		padding-right: 0;
+		margin-bottom: 100px;
+	}
 }
 @media(max-width: 1250px){
 	.awilo_fn_about .about_in{
 		flex-direction: column;
+		background-image: url("../img/main-tablet.png");
+
 	}
 	.awilo_fn_about .about_left{
-		width: 100%;
+		width: 66.6%;
 		padding-right: 0;
 		margin-bottom: 100px;
 	}
+	.awilo_fn_about .about_right img{
+		display:none;
+	}
+
 	#information{
 		padding: 93px 0 80px 0;
 	}
@@ -2093,6 +2224,9 @@ input.button-form:hover {
 		padding: 93px 0 80px 0;
 	}
 	.awilo_fn_services ul li{
+		width: 50%;
+	}
+	.awilo_fn_mission ul li{
 		width: 50%;
 	}
 	#portfolio{
@@ -2111,6 +2245,7 @@ input.button-form:hover {
 		padding: 91px 0 95px 0;
 	}
 }
+
 @media(max-width: 1040px){
 	.awilo_fn_header{
 		padding: 5px 20px;
@@ -2199,6 +2334,16 @@ input.button-form:hover {
 	.awilo_fn_info_list li{
 		width: 100%;
 	}
+
+	.awilo_fn_about .about_in{
+		background-image: url("../img/main-mobile.png");
+		background-size:100% auto; 
+	}
+
+	.awilo_fn_about .about_left{
+		width: 88%;
+	}
+
 	.awilo_fn_blog_list .blog_item{
 		padding: 30px 0;
 	}
@@ -2211,10 +2356,13 @@ input.button-form:hover {
 		width: 100px;
 		min-height: 80px;
 	}
-	.awilo_fn_services ul li{width: 100%;}
-	.awilo_fn_about .about_right{
-		width: 100%
+	.awilo_fn_services ul li{
+		width: 100%;
 	}
+	.awilo_fn_mission ul li{
+		width: 100%;
+	}
+
 	.awilo_fn_portfolio_grid ul li{
 		width: 100% !important;
 	}
@@ -2222,10 +2370,27 @@ input.button-form:hover {
 		width: 100%;
 		margin: 2px 0;
 	}
+	.awilo_fn_mission .s_item{
+		padding: 60px 32px 400px 32px;
+	}
 }
+@media(min-width: 666px){
+
+	.awilo_fn_about .about_in{
+		background-size:auto 100%; 
+	}
+}
+
+
 @media(max-width: 480px){
 	.awilo_fn_header{
 		padding: 5px 10px;
+	}
+	.awilo_fn_about .about_left{
+		width: 100%;
+	}
+	.awilo_fn_about .about_in{
+		background-size:100% auto; 
 	}
 	.awilo_fn_blog_list .title_wrapper .title_holder h3{
 		font-size: 24px;
@@ -2262,4 +2427,85 @@ input.button-form:hover {
 	.awilo_fn_title_green h3{
 		font-size: 30px;
 	}
+	.awilo_fn_mission .s_item{
+		padding: 40px 16px 200px 16px;
+	}
 }
+
+/*-- Language Switch --*/
+#en {
+	display: block;
+	word-break:keep-all;
+	-webkit-transition: display .4s ease-in-out;
+	-moz-transition: display .4s ease-in-out;
+	-o-transition: display .4s ease-in-out;
+	-ms-transition: display .4s ease-in-out;
+	transition: display .4s ease-in-out;
+  }
+
+#kr {
+	display: none;
+	word-break:keep-all;
+	-webkit-transition: display .4s ease-in-out;
+	-moz-transition: display .4s ease-in-out;
+	-o-transition: display .4s ease-in-out;
+	-ms-transition: display .4s ease-in-out;
+	transition: display .4s ease-in-out;
+  }
+
+.button_lang {
+	margin:0;
+	padding: 0.5rem;
+	color: #7e8692;
+	text-decoration:none!important;
+	font-family: Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	font-size: 0.875rem;
+	letter-spacing: 0;
+	line-height:1;
+	font-weight: 500;
+	cursor: pointer;
+	display: block;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+  }
+  .button_lang:hover, .current_lang {
+	color: #dee0e3;
+	-webkit-transition: color .3s ease-in-out;
+	-moz-transition: color .3s ease-in-out;
+	-o-transition: color .3s ease-in-out;
+	-ms-transition: color .3s ease-in-out;
+	transition: color .3s ease-in-out;
+  }
+  
+  ul.language_switch li {
+	width: auto;
+	margin: 0;
+	display: inline;
+  }
+
+  ul.language_switch{
+	text-align:center;
+	background-color:rgba(26,57,134,0.2);
+	padding: 0.5rem;
+	backdrop-filter: blur(8px);
+	border-radius: 0.5rem;
+
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+  }
+
+  ul.language_switch:hover{
+	background-color:rgba(26,57,134,0.4);
+
+	-webkit-transition: background-color .3s ease-in-out;
+	-moz-transition: background-color .3s ease-in-out;
+	-o-transition: background-color .3s ease-in-out;
+	-ms-transition: background-color .3s ease-in-out;
+	transition: background-color .3s ease-in-out;
+  }

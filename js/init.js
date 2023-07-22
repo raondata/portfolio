@@ -115,6 +115,17 @@
 				});
 			}
 		},
+		toTopJumper: function(){
+			var totop		= $('a.logo');
+			if(totop.length){
+				totop.on('click', function(e) {
+					e.preventDefault();		
+					$("html, body").animate(
+						{ scrollTop: 0 }, 'slow');
+					return false;
+				});
+			}
+		},
 		imgToSvg: function(){
 			$('img.awilo_fn_svg').each(function(){
 				var $img 		= $(this);
