@@ -22,7 +22,8 @@ html {
 }
 
 body{
-	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;	font-size: 16px;
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;	
+	font-size: 1rem;
 	line-height: 1.5;
 	letter-spacing: 0.8px;
 	word-wrap: break-word;
@@ -30,6 +31,14 @@ body{
 	background-color: rgb(14,31,73);
 	color: #aab1b8;
 }
+
+.color-raon{
+	color: #3062d7!important;
+}
+.color-raongreen{
+	color: #00e3b2!important;
+}
+
 .awilo_fn_svg{
 	fill: currentcolor;
 	width: 15px;
@@ -90,7 +99,7 @@ a.awilo_fn_circle_link:after{
     position: absolute;
     bottom: -2px;
     left: 100%;
-    background-color: #efc152;
+    background-color: #3062d7;
 	
 	-webkit-transition: left .5s ease,width .5s ease;
 	   -moz-transition: left .5s ease,width .5s ease;
@@ -226,7 +235,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_sidebar_header .menu_nav ul.vert_nav li > a{
 	text-decoration: none;
     color: #eee;
-    font-family: "Muli";
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     text-transform: capitalize;
     font-weight: 600;
     display: block;
@@ -240,7 +249,7 @@ a.awilo_fn_circle_link:hover:after{
     transition: all .3s ease;
 }
 .awilo_fn_sidebar_header .menu_nav ul.vert_nav li > a:hover{
-	color: #efc152;
+	color: #3062d7;
 }
 .awilo_fn_sidebar_header .menu_nav ul.vert_nav li > a:before{
 	position: absolute;
@@ -314,7 +323,7 @@ a.awilo_fn_circle_link:hover:after{
 	text-align: center;
 }
 .awilo_fn_sidebar_header .social_list ul li a:hover{
-	color: #efc152;
+	color: #3062d7;
 }
 /*---------------------------------------------------*/
 /*	00) HEADER
@@ -480,8 +489,8 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_about .about_left .about_desc p{
 	margin: 0;
 	padding: 0;
-	font-size: 24px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 1.5;
 	color: #aab1b8;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
@@ -500,7 +509,8 @@ a.awilo_fn_circle_link:hover:after{
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	text-decoration: none;
 	color: #3062d7;
-	font-size: 16px;
+	font-size: 18px;
+	font-weight: 600;
 	border-radius: 2px;
 	max-width: 100%;
 	white-space: nowrap;
@@ -575,7 +585,7 @@ a.awilo_fn_circle_link:hover:after{
 	color: #aab1b8;
 	font-size: 18px;
 	line-height: 24px;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	display: block;
 	transition: all .3s ease;
 }
@@ -685,9 +695,9 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_title_yellow h5{
 	margin: 0;
 	padding: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 2rem;
-	color: #efc152;
+	color: #3062d7;
 	letter-spacing: 0;
 	font-weight: 800;
 }
@@ -710,7 +720,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_title_blue h5{
 	margin: 0;
 	padding: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 2rem;
 	color: #5280ef;
 	letter-spacing: 0;
@@ -735,7 +745,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_title_red h5{
 	margin: 0;
 	padding: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 2rem;
 	color: #f16991;
 	letter-spacing: 0;
@@ -760,7 +770,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_title_green h5{
 	margin: 0;
 	padding: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 2rem;
 	color: #10a87b;
 	letter-spacing: 0;
@@ -824,6 +834,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 100px 44px 60px 44px;
 	position: relative;
 	transition: all .3s ease;
+	display:grid;
 }
 
 .awilo_fn_services .s_item:hover{
@@ -845,7 +856,7 @@ a.awilo_fn_circle_link:hover:after{
 	color: #eee;
 	font-size: 16px;
 	line-height: 34px;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	width: 100%;
 	max-width: 100%;
 	padding: 0 2px;
@@ -874,14 +885,15 @@ a.awilo_fn_circle_link:hover:after{
 	margin: 0;
 	padding: 0;
 	color: #aab1b8;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	margin-bottom: 27px;
 }
 .awilo_fn_services .s_item .s_btn a{
+	margin-bottom:0.725rem;
 	display: block;
 	float: left;
 	font-size: 16px;
-	color: #efc152;
+	color: #3062d7;
 	line-height: 24px;
 	text-decoration: none;
 }
@@ -980,8 +992,8 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_mission .s_item .s_btn a{
 	display: block;
 	float: left;
-	font-size: 16px;
-	color: #efc152;
+	font-size: 1rem;
+	color: #3062d7;
 	line-height: 24px;
 	text-decoration: none;
 }
@@ -1005,7 +1017,7 @@ a.awilo_fn_circle_link:hover:after{
 	color: #eee;
 	line-height: 40px;
 	font-weight: 400;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 .awilo_fn_skills .s_list ul{
 	margin: 0;
@@ -1033,7 +1045,7 @@ a.awilo_fn_circle_link:hover:after{
 	line-height: 45px;
 	border: 1px solid rgba(255,255,255,.1);
 	border-radius: 3px;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 16px;
 	color: #eeeeee;
 	letter-spacing: 0;
@@ -1179,7 +1191,7 @@ a.awilo_fn_circle_link:hover:after{
 	margin: 0;
 	padding: 0;
 	color: #bbb;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-size: 16px;
 	letter-spacing: 0;
 	margin-bottom: 4px;
@@ -1205,7 +1217,7 @@ a.awilo_fn_circle_link:hover:after{
 	transition: all .3s ease;
 }
 .awilo_fn_portfolio_grid .list_item .title_holder h3 a:hover{
-	color: #efc152;
+	color: #3062d7;
 }
 .awilo_fn_portfolio_grid ul li.tmwide50 .list_item .title_holder h3,
 .awilo_fn_portfolio_grid ul li.tmwide66 .list_item .title_holder h3,
@@ -1253,7 +1265,7 @@ a.awilo_fn_circle_link:hover:after{
 	line-height: 40px;
 	color: #eee;
 	letter-spacing: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-weight: 400;
 	margin-bottom: 31px;
 }
@@ -1304,7 +1316,7 @@ a.awilo_fn_circle_link:hover:after{
     line-height: 40px;
     color: #eee;
     letter-spacing: 0;
-    font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     font-weight: 400;
     margin-bottom: 45px;
 }
@@ -1352,7 +1364,7 @@ a.awilo_fn_circle_link:hover:after{
 	bottom: 14px;
 	left: 50%;
 	margin-left: -14px;
-	color: #efc152;
+	color: #3062d7;
 }
 .awilo_fn_reviews .r_item .r_review{
 	margin-bottom: 32px;
@@ -1363,7 +1375,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_reviews .r_item .r_desc p{
 	margin: 0;
 	padding: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	letter-spacing: 0;
 	font-size: 16px;
 	line-height: 24px;
@@ -1410,7 +1422,7 @@ a.awilo_fn_circle_link:hover:after{
 	font-size: 16px;
 	color: #aab1b8;
 	letter-spacing: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-weight: 400;
 }
 .awilo_fn_reviews .swiper-wrapper{
@@ -1439,7 +1451,7 @@ a.awilo_fn_circle_link:hover:after{
 	display: block;
 	float: left;
 	font-size: 18px;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	letter-spacing: 0;
 	color: #eee;
 	height: 22px;
@@ -1579,7 +1591,7 @@ a.awilo_fn_circle_link:hover:after{
 	font-size: 30px;
 	letter-spacing: 0;
 	margin: 0;
-	color: #efc152;
+	color: #3062d7;
 	font-weight: 400;
 	position: absolute;
 	left: 0;
@@ -1648,7 +1660,7 @@ a.awilo_fn_circle_link:hover:after{
 	transition: all .3s ease;
 }
 .awilo_fn_blog_list .title_wrapper .title_holder p{
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	margin: 0;
 	padding: 0;
 	font-size: 18px;
@@ -1695,7 +1707,7 @@ a.awilo_fn_circle_link:hover:after{
 	}
 	.awilo_fn_blog_list .blog_item:hover .title_wrapper .b_arrow .awilo_fn_svg,
 	.awilo_fn_blog_list .blog_item:hover .title_wrapper .title_holder h3 a{
-		color: #efc152;
+		color: #3062d7;
 	}
 	.awilo_fn_blog_list .blog_item:hover .b_counter{
 		transform: translate3d(0px,0px,0px) scale(0);
@@ -1738,8 +1750,8 @@ a.awilo_fn_circle_link:hover:after{
     margin-bottom: 20px;
     line-height: 60px;
     border-radius: 5px;
-    border: 2px solid #efc152;
-    color: #efc152;
+    border: 2px solid #3062d7;
+    color: #3062d7;
 }
 .awilo_fn_contact_form textarea,
 .awilo_fn_contact_form input[type="email"],
@@ -1755,7 +1767,7 @@ a.awilo_fn_circle_link:hover:after{
 	line-height: 1;
 	font-size: 18px;
 	letter-spacing: 0;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	color: #aab1b8;
 	background-color: transparent;
 	margin-bottom: 40px;
@@ -1789,7 +1801,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 0;
 	font-size: 16px;
 	color: #aab1b8;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
 	margin-bottom: 7px;
@@ -1821,15 +1833,15 @@ input.button-form {
 	display:block;
 	float:left;
 	padding: 0 37px;
-	border: 2px solid #efc152;
+	border: 2px solid #3062d7;
 	background: none;
 	margin:0;
 	box-shadow:none;
-	color:#efc152;
+	color:#3062d7;
 	font-size:1rem;
 	border-radius:2px;
 	text-decoration:none;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	position:relative;
 	white-space: nowrap;
 	text-overflow: ellipsis;
@@ -1922,7 +1934,7 @@ input.button-form:hover {
 	font-weight:bold;
 	letter-spacing: -0.25px;
 	color: #fff;
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 /*---------------------------------------------------*/
 /*	19) Shortcode: Video
@@ -2064,7 +2076,7 @@ input.button-form:hover {
     line-height: 40px;
     color: #eee;
     letter-spacing: 0;
-    font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     font-weight: 400;
     margin-bottom: 45px;
 }
@@ -2127,7 +2139,7 @@ input.button-form:hover {
 	z-index: 5;
 }
 .awilo_fn_partners .flip__back span{
-	font-family: 'Muli';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	line-height:100%;
 	font-size: 18px;
 	color: #eee;
@@ -2395,38 +2407,7 @@ input.button-form:hover {
 	.awilo_fn_blog_list .title_wrapper .title_holder h3{
 		font-size: 24px;
 	}
-	.awilo_fn_title_yellow h5{
-		font-size: 1.5rem;
-		margin-bottom:0.5rem;
-		font-weight:500;
-	}
-	.awilo_fn_title_yellow h3{
-		font-size: 30px;
-	}
-	.awilo_fn_title_blue h5{
-		font-size: 1.5rem;
-		margin-bottom:0.5rem;
-		font-weight:500;
-	}
-	.awilo_fn_title_blue h3{
-		font-size: 30px;
-	}
-	.awilo_fn_title_red h5{
-		font-size: 1.5rem;
-		margin-bottom:0.5rem;
-		font-weight:500;
-	}
-	.awilo_fn_title_red h3{
-		font-size: 30px;
-	}
-	.awilo_fn_title_green h5{
-		font-size: 1.5rem;
-		margin-bottom:0.5rem;
-		font-weight:500;
-	}
-	.awilo_fn_title_green h3{
-		font-size: 30px;
-	}
+
 	.awilo_fn_mission .s_item{
 		padding: 40px 16px 200px 16px;
 	}
@@ -2434,7 +2415,7 @@ input.button-form:hover {
 
 /*-- Language Switch --*/
 #en {
-	display: block;
+	display: none;
 	word-break:keep-all;
 	-webkit-transition: display .4s ease-in-out;
 	-moz-transition: display .4s ease-in-out;
@@ -2444,7 +2425,7 @@ input.button-form:hover {
   }
 
 #kr {
-	display: none;
+	display: block;
 	word-break:keep-all;
 	-webkit-transition: display .4s ease-in-out;
 	-moz-transition: display .4s ease-in-out;
