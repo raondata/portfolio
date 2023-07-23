@@ -28,7 +28,7 @@ body{
 	letter-spacing: 0.8px;
 	word-wrap: break-word;
 	font-weight: 400;
-	background-color: rgb(14,31,73);
+	background: rgb(14,31,73);
 	color: #aab1b8;
 }
 
@@ -1860,7 +1860,7 @@ input.button-form:hover {
 	clear: both;
 	padding: 211px 0;
 	background: rgb(0,0,0);
-	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(30,67,155,1) 100%);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(14,31,73) 100%);
 }
 .awilo_fn_big_text h3 {
 	margin: 0;
@@ -1873,22 +1873,41 @@ input.button-form:hover {
 	font-weight: 700;
 	color: #f1f2f3;
 }
+
+.awilo_fn_big_text h5 {
+	margin: 0;
+	padding: 0;
+	max-width: 745px;
+	font-size: 1.5rem;
+	line-height: 80px;
+	letter-spacing: -0.25px;
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+	font-weight: 500;
+	color: #f1f2f3;
+}
+
+.awilo_fn_big_text a {
+	text-decoration:underline;
+	color:#f1f2f3;
+}
+
 /*---------------------------------------------------*/
 /*	17) To Top
 /*---------------------------------------------------*/
 .awilo_fn_totop{
-	margin: 0;
+	margin: -1rem 0 0 0;
 	padding: 0;
 	position: absolute;
 	top: 50%;
-	width: 30px;
-	height: 30px;
+	width: 2rem;
+	height: 2rem;
 	right: 50px;
 	cursor: pointer;
 	display: block;
-	border-radius: 4px;
-	background-color: #352c3d;
-	margin-top: -15px;
+	border-radius: 0.25rem;
+	background-color:rgba(26,57,134,0.2);
+	-webkit-backdrop-filter: blur(5px);
+	backdrop-filter: blur(5px);
 	transition: all .3s ease;
 }
 .awilo_fn_totop:hover{
@@ -1925,16 +1944,22 @@ input.button-form:hover {
 	clear: both;
 	padding: 66px 0;
 	position: relative;
-	background: rgba(30,67,155,1);
+	background: rgb(14,31,73);
 }
+
 .awilo_fn_footer p{
 	margin: 0;
 	padding: 0;
 	font-size: 1rem;
-	font-weight:bold;
+	font-weight:500;
 	letter-spacing: -0.25px;
-	color: #fff;
+	color: #979fb1;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.awilo_fn_footer a{
+	text-decoration:none;
+	color: #979fb1;
 }
 /*---------------------------------------------------*/
 /*	19) Shortcode: Video

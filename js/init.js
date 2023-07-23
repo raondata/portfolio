@@ -18,7 +18,8 @@
 			this.portfOlioMasonry();
 			this.reviewSlider();
 			this.contactForm();
-			this.toTopJumper();
+			this.toTopJumper1();
+			this.toTopJumper2();
 			this.video();
 			this.jarallax();
 			this.anchor();
@@ -104,7 +105,8 @@
 				fixedContentPos: false
 			});
 		},
-		toTopJumper: function(){
+
+		toTopJumper1: function(){
 			var totop		= $('span.awilo_fn_totop');
 			if(totop.length){
 				totop.on('click', function(e) {
@@ -115,7 +117,8 @@
 				});
 			}
 		},
-		toTopJumper: function(){
+
+		toTopJumper2: function(){
 			var totop		= $('a.logo');
 			if(totop.length){
 				totop.on('click', function(e) {
@@ -126,6 +129,7 @@
 				});
 			}
 		},
+
 		imgToSvg: function(){
 			$('img.awilo_fn_svg').each(function(){
 				var $img 		= $(this);
