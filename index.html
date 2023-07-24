@@ -92,8 +92,8 @@
 											<a id="kr" href="#project">서비스</a>
 										</li>
 										<li>
-											<a id="en" href="#contact">Awards</a>
-											<a id="kr" href="#contact">수상경력</a>
+											<a id="en" href="#awards">Awards</a>
+											<a id="kr" href="#awards">수상경력</a>
 										</li>
 									</ul>
 								</div>
@@ -102,15 +102,15 @@
 						<div class="about_right">
 							<div class="r_inner" id="scene">
 								<div class="layer about_img" data-depth="0.8">
-									<img src="img/main-2.png" alt=""/>
+									<img src="img/main-2.png" alt="라온데이터 메인 이미지"/>
 									<div class="awilo_fn_abs_img" data-bg-img="img/main-2.png"></div>
 								</div>
 								<div class="layer about_img" data-depth="0.5">
-									<img src="img/main-1.png" alt=""/>
+									<img src="img/main-1.png" alt="라온데이터 메인 이미지"/>
 									<div class="awilo_fn_abs_img" data-bg-img="img/main-1.png"></div>
 								</div>
 								<div class="layer about_border" data-depth="0.3">
-									<img src="img/main-1.png" alt=""/>
+									<img src="img/main-1.png" alt="라온데이터 메인 이미지"/>
 								</div>
 							</div>
 						</div>
@@ -256,8 +256,12 @@
 									<p id="kr">사용자의 음성을 완전 다른 인격체의 음성으로 완벽하게 전환합니다. 이 과정은 기계적 변조가 아닌 인공지능 기술을 통한 데이터 전환으로 목소리의 피치 뿐만아니라 전반적인 음성의 개성이 대체됩니다.</p>
 								</div>
 								<div class="s_btn">
-									<a id="en" class="awilo_fn_circle_link" href="">Demo: M-to-F Live Conversion </a>
-									<a id="kr" class="awilo_fn_circle_link" href="">데모 재생: 남-여 실시간 음성 전환</a>
+									<a id="en" class="awilo_fn_circle_link">Play Sound: Pre-conversion (M)</a>
+									<a id="kr" class="awilo_fn_circle_link">음성 재생: 전환 전 (남)</a>
+								</div>
+								<div class="s_btn">
+									<a id="en" class="awilo_fn_circle_link">Play Sound: Post-conversion (F)</a>
+									<a id="kr" class="awilo_fn_circle_link">음성 재생: 전환 후 (여)</a>
 								</div>
 							</div>
 						</li>
@@ -308,8 +312,8 @@
 <!-- /Divider ------------------------------------------------->
 
 		
-			<!-- Section: Portfolio -->
-			<section id="portfolio">
+		<!-- Section: Portfolio -->
+		<section id="portfolio">
 				<div class="container wide">
 				
 					<!-- Shortcode: Title with Description -->
@@ -326,37 +330,6 @@
 					<div class="awilo_fn_portfolio_grid"> 	
 						<ul class="awilo_fn_masonry">
 							<li class="grid-sizer"></li>
-
-							<li class="awilo_fn_masonry_in cursor" onclick="openPopup('https://www.youtube.com/embed/XX7kKMxoeVg')">
-								<div class="video-container">
-									<div id="video-popup" class="video-popup">
-									  <span class="close-btn" onclick="closePopup()">&times;</span>
-									  <iframe id="video-iframe" width="780" height="600" src="https://www.youtube.com/embed/XX7kKMxoeVg" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen preload></iframe>
-									</div>
-								  </div>
-								<div class="list_item">								  
-									<div class="img_holder">
-										<img src="https://www.raondata.ai/assets/img/portfolio/grid/hangil.png" alt="라온데이터-한길안과 망막 질환 진단" />
-										<div class="awilo_fn_abs_img" data-bg-img="https://www.raondata.ai/assets/img/portfolio/grid/hangil.png"></div>
-									</div>
-									<div class="title_holder">
-										<div class="title_abs"><div class="layer" data-depth="0.3"></div></div>
-										<div class="title_cat">
-											<p>
-												<span class="awilo_fn_circle_link">AI</a>
-												<span class="sep">/</span>
-												<span class="awilo_fn_circle_link">Medical Imaging</a>
-											</p>
-										</div>
-										<div class="title_name" id="en">
-											<h3>AI Retina Disease Detection</h3>
-										</div>
-										<div class="title_name" id="kr">
-											<h3>AI 망막 질환 진단 보조 시스템</h3>
-										</div>
-									</div>
-								</div>
-							</li>
 
 							<li class="awilo_fn_masonry_in">
 								<div class="list_item">
@@ -382,14 +355,39 @@
 									</div>
 								</div>
 							</li>
+							
+							<li class="awilo_fn_masonry_in cursor" onclick="openPopup('https://www.youtube.com/embed/XX7kKMxoeVg')">
+								<div class="list_item">								  
+									<div class="img_holder">
+										<img src="https://www.raondata.ai/assets/img/portfolio/grid/hangil.png" alt="라온데이터-한길안과 망막 질환 진단"/>
+										<div class="awilo_fn_abs_img" data-bg-img="https://www.raondata.ai/assets/img/portfolio/grid/hangil.png"></div>
+									</div>
+									<div class="title_holder">
+										<div class="title_abs"><div class="layer" data-depth="0.3"></div></div>
+										<div class="title_cat">
+											<p>
+												<span class="awilo_fn_circle_link">AI</a>
+												<span class="sep">/</span>
+												<span class="awilo_fn_circle_link">Medical Imaging</a>
+											</p>
+										</div>
+										<div class="title_name" id="en">
+											<h3>AI Retina Disease Detection</h3>
+										</div>
+										<div class="title_name" id="kr">
+											<h3>AI 망막 질환 진단 보조 시스템</h3>
+										</div>
+									</div>
+								</div>
+							</li>
 
 							<li class="awilo_fn_masonry_in cursor" onclick="openPopup('https://www.youtube.com/embed/Sj6xSFErLiY')">
-								<div class="video-container">
+								<!-- <div class="video-container">
 									<div id="video-popup" class="video-popup">
 									  <span class="close-btn" onclick="closePopup()">&times;</span>
 									  <iframe id="video-iframe" width="780" height="600" src="https://www.youtube.com/embed/Sj6xSFErLiY" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen preload></iframe>
 									</div>
-								  </div>
+								  </div> -->
 								<div class="list_item">
 									<div class="img_holder">
 										<img src="https://www.raondata.ai/assets/img/portfolio/grid/songhae.svg" alt="라온데이터-송해 가상인간" />
@@ -470,8 +468,10 @@
 					<div class="overlay" id="overlay" onclick="closePopup()"></div>
 					<div class="clearfix"></div>
 				</div>
-	</section>
+		</section>
 
+		
+		
 <!-- Divider ------------------------------------------------->
 			<div class="awilo_fn_divider"></div>
 <!-- /Divider ------------------------------------------------->
@@ -525,13 +525,13 @@
 									<img src="img/logo-vhstudio.png" alt="라온데이터-VH 로고"/>
 									<p class="color-raongreen" id="en">Generative AI Desktop Assistant</p>
 									<h3 id="en">VH Studio</h3>
-									<p id="en">Chat-GPT-based AI characters can engage in an indefinite number of real-time interactions. On the user's desktop, the desktop overlay environment enables the character to function as a search engine.</p>
+									<p id="en" style="margin-bottom:2rem;">Chat-GPT-based AI characters can engage in an indefinite number of real-time interactions. On the user's desktop, the desktop overlay environment enables the character to function as a search engine.</p>
 									<p class="color-raongreen" id="kr">생성 AI 데스크톱 비서</p>
 									<h3 id="kr">VH 스튜디오</h3>
-									<p id="kr">Chat GPT기반 AI 캐릭터와 실시간으로 무궁무진한 상호작용을 진행할 수 있습니다. 데스크톱 오버레이 환경으로 컴퓨터에서 작업 중일 때 서치엔진의 역할을 수행할 수 있습니다.</p>
+									<p id="kr" style="margin-bottom:2rem;">Chat GPT기반 AI 캐릭터와 실시간으로 무궁무진한 상호작용을 진행할 수 있습니다. 데스크톱 오버레이 환경으로 컴퓨터에서 작업 중일 때 서치엔진의 역할을 수행할 수 있습니다.</p>
 									<div class="s_btn">
-										<a id="en" class="awilo_fn_circle_link" href="neti.html">View Demo</a>
-										<a id="kr" class="awilo_fn_circle_link" href="neti.html">서비스 데모</a>
+										<a id="en" class="awilo_fn_circle_link" onclick="openPopup('https://www.youtube.com/embed/QzkzF9n9ge4')"">View Demo</a>
+										<a id="kr" class="awilo_fn_circle_link" onclick="openPopup('https://www.youtube.com/embed/QzkzF9n9ge4')">서비스 데모</a>
 									</div>
 								</div>
 							</div>
@@ -548,15 +548,19 @@
 									<img src="img/logo-stitch.png" alt="라온데이터-스티치 로고"/>
 									<p class="color-raongreen" id="en">Realtime Persona Converter</p>
 									<h3 id="en">Stitch</h3>
-									<p id="en">Using voice conversion technology powered by artificial intelligence, the user's voice can be converted into a completely distinct third party's voice and transmitted in real time. Users can experience augmented digital content production and voice conversation through various voice assets.</p>
+									<p id="en" style="margin-bottom:2rem;">Using voice conversion technology powered by artificial intelligence, the user's voice can be converted into a completely distinct third party's voice and transmitted in real time. Users can experience augmented digital content production and voice conversation through various voice assets.</p>
 									<p class="color-raongreen" id="kr">실시간 페르소나 전환기</p>
 									<h3 id="kr">스티치</h3>
-									<p id="kr">인공지능 음성 전환 기술을 통해 실시간으로 사용자의 음성을 완전히 다른 제 3자의 음성으로 전환시켜 송출할 수 있습니다. 다양한 목소리 에셋을 통해 사용자는 증강된 디지털 콘텐츠, 보이스챗 경험을 느낄 수 있습니다.</p>
-									<div class="s_btn">
-										<a id="en" class="awilo_fn_circle_link" href="neti.html">View Demo</a>
-										<a id="kr" class="awilo_fn_circle_link" href="neti.html">서비스 데모</a>
-									</div>
+									<p id="kr" style="margin-bottom:2rem;">인공지능 음성 전환 기술을 통해 실시간으로 사용자의 음성을 완전히 다른 제 3자의 음성으로 전환시켜 송출할 수 있습니다. 다양한 목소리 에셋을 통해 사용자는 증강된 디지털 콘텐츠, 보이스챗 경험을 느낄 수 있습니다.</p>
 								</div>
+									<div class="s_btn">
+										<a id="en" class="awilo_fn_circle_link">Play Sound: Pre-conversion (M)</a>
+										<a id="kr" class="awilo_fn_circle_link">음성 재생: 전환 전 (남)</a>
+									</div>
+									<div class="s_btn">
+										<a id="en" class="awilo_fn_circle_link">Play Sound: Post-conversion (F)</a>
+										<a id="kr" class="awilo_fn_circle_link">음성 재생: 전환 후 (여)</a>
+									</div>
 							</div>
 						</li>
 
@@ -579,102 +583,90 @@
 					<h5 id="en">Proof of Raondata</h5>
 					<h3 id="en">Honors & Awards</h3>
 					<h5 id="kr">라온데이터의 증명</h5>
-					<h3 id="kr">수상 경력</h3>
+					<h3 id="kr">수상 경력 및 주요 이력</h3>
 				</div>
 				<!-- /Shortcode: Title with Description -->
 				
 				
-				<!-- Shortcode: Blog List -->
-				<div class="awilo_fn_blog_list">
-					<ul>
-						<li>
-							<div class="blog_item">
-								<div class="blog_item_in">
-									<span class="b_counter">01</span>
-									<div class="title_wrapper">
-										<div class="abs_img" data-bg-img="img/blog/1.jpg"></div>
-										<div class="title_holder">
-											<p>By Frenify / April 27,2020</p>
-											<h3><a href="#">The role of design in web development</a></h3>
-										</div>
-										<div class="b_arrow">
-											<a href="#"><img class="awilo_fn_svg" src="img/svg/right.svg" alt="" /></a>
-										</div>
-									</div>
+				<!-- Shortcode: Experience-->
+				<div class="awilo_fn_experience">
+
+					<div class="e_list">
+						<ul>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">2021</span>
+									<span class="e_item_b" id="en">Establishment of Raon Data Corporation</span>
+									<span class="e_item_b" id="kr">라온데이터 법인 설립</span>
 								</div>
-							</div>
-						</li>
-						<li>
-							<div class="blog_item">
-								<div class="blog_item_in">
-									<span class="b_counter">02</span>
-									<div class="title_wrapper">
-										<div class="abs_img" data-bg-img="img/blog/2.jpg"></div>
-										<div class="title_holder">
-											<p>By Frenify / April 27,2020</p>
-											<h3><a href="#">Branding for Lolli &amp; Pops</a></h3>
-										</div>
-										<div class="b_arrow">
-											<a href="#"><img class="awilo_fn_svg" src="img/svg/right.svg" alt="" /></a>
-										</div>
-									</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en"><b class="color-raongreen">2nd Place</b> in World Fake News Detection Competition</span>
+									<span class="e_item_b" id="kr">가짜뉴스 탐지 경진대회 <b class="color-raongreen">세계 2위</b></span>
 								</div>
-							</div>
-						</li>
-						<li>
-							<div class="blog_item">
-								<div class="blog_item_in">
-									<span class="b_counter">03</span>
-									<div class="title_wrapper">
-										<div class="abs_img" data-bg-img="img/blog/3.jpg"></div>
-										<div class="title_holder">
-											<p>By Frenify / April 27,2020</p>
-											<h3><a href="#">User Story Template With Templates</a></h3>
-										</div>
-										<div class="b_arrow">
-											<a href="#"><img class="awilo_fn_svg" src="img/svg/right.svg" alt="" /></a>
-										</div>
-									</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en"><b class="color-raongreen">1st Place</b> in Artificial Intelligence Championship</span>
+									<span class="e_item_b" id="kr">인공지능 챔피언십 2021 <b class="color-raongreen">우승 (중소벤처기업부 장관상)</b></span>
 								</div>
-							</div>
-						</li>
-						<li>
-							<div class="blog_item">
-								<div class="blog_item_in">
-									<span class="b_counter">04</span>
-									<div class="title_wrapper">
-										<div class="abs_img" data-bg-img="img/blog/4.jpg"></div>
-										<div class="title_holder">
-											<p>By Frenify / April 27,2020</p>
-											<h3><a href="#">Designing Search for Mobile Apps</a></h3>
-										</div>
-										<div class="b_arrow">
-											<a href="#"><img class="awilo_fn_svg" src="img/svg/right.svg" alt="" /></a>
-										</div>
-									</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en"><b class="color-raongreen">3rd Place</b> in Big-Star Problem Solver-Platform Playoff</span>
+									<span class="e_item_b" id="kr">대-스타 해결사 플랫폼 왕중왕전 <b class="color-raongreen">장려상 (중소벤처기업부 장관상)</b></span>
 								</div>
-							</div>
-						</li>
-						<li>
-							<div class="blog_item">
-								<div class="blog_item_in">
-									<span class="b_counter">05</span>
-									<div class="title_wrapper">
-										<div class="abs_img" data-bg-img="img/blog/5.jpg"></div>
-										<div class="title_holder">
-											<p>By Frenify / April 27,2020</p>
-											<h3><a href="#">Designing with Emotion Means Being Brave</a></h3>
-										</div>
-										<div class="b_arrow">
-											<a href="#"><img class="awilo_fn_svg" src="img/svg/right.svg" alt="" /></a>
-										</div>
-									</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">2022</span>
+									<span class="e_item_b" id="en">Selected as a <b class="color-raongreen">Venture Company</b> in Republic of Korea</span>
+									<span class="e_item_b" id="kr">한국 <b class="color-raongreen">벤처기업</b> 선정</span>
 								</div>
-							</div>
-						</li>
-					</ul>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en">Establishment of R&D Center</span>
+									<span class="e_item_b" id="kr">기업부설 연구소 설립</span>
+								</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en">2 Patents Registerd for AI Technology</span>
+									<span class="e_item_b" id="kr">인공지능 기술 특허 2건 등록</span>
+								</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en"><b class="color-raongreen">1st Place</b> in Seoul Media Lab Startup Competition</span>
+									<span class="e_item_b" id="kr">서울 미디어랩 스타트업 경진대회 <b class="color-raongreen">최우수상</b></span>
+								</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">&nbsp;</span>
+									<span class="e_item_b" id="en"><b class="color-raongreen">1st Place</b> in ASEAN International Entrepreneurship Competition</span>
+									<span class="e_item_b" id="kr">중국 아세안 국제 창업 경진대회 <b class="color-raongreen">최우수상</b></span>
+								</div>
+							</li>
+							<li>
+								<div class="e_item">
+									<span class="e_item_a">2023</span>
+									<span class="e_item_b" id="en">Selected as an <b class="color-raongreen">Best Startup Partner</b> in Shinhan Open Innovation 7th</span>
+									<span class="e_item_b" id="kr">신한 오픈 이노베이션 7기 <b class="color-raongreen">우수 협업 기업</b> 선정</span>
+								</div>
+							</li>
+						</ul>
+					</div>
 				</div>
-				<!-- /Shortcode: Blog List -->
+				<!-- /Shortcode: Experience-->
 				
 			</div>
 		</section>
@@ -696,7 +688,16 @@
 		</section>
 		<!-- /Section: Big Text -->
 		
-		
+		<!-- Frame for Youtube iFrame -->
+		<div class="video-container">
+			<div id="video-popup" class="video-popup">
+			  <span class="close-btn" onclick="closePopup()">&times;</span>
+			  <iframe id="video-iframe" width="780" height="600" src="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen preload></iframe>
+			</div>
+		</div>
+	    <!-- /Frame for Youtube iFrame -->
+
+
 		<!-- FOOTER -->
 		<footer>
 			<div class="awilo_fn_footer">

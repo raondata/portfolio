@@ -23,7 +23,6 @@ html {
 
 body{
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;	
-	font-size: 1rem;
 	line-height: 1.5;
 	letter-spacing: 0.8px;
 	word-wrap: break-word;
@@ -177,8 +176,8 @@ a.awilo_fn_circle_link:hover:after{
 	display:block;
 	padding:1rem;
 	background-color:rgba(26,57,134,0.2);
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(0.5rem);
+	backdrop-filter: blur(0.5rem);
 	border-radius:0.5rem;
 	transition: all .3s ease;
 }
@@ -490,13 +489,13 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_about .about_left .about_desc p{
 	margin: 0;
 	padding: 0;
-	font-size: 20px;
+	font-size: 1.25rem;
 	line-height: 1.5;
 	color: #aab1b8;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 }
 .awilo_fn_about .about_left .about_desc{
-	margin-bottom: 64px;
+	margin-bottom: 4rem
 }
 .awilo_fn_wrapper .awilo_fn_main_button{
 	margin: 0;
@@ -509,7 +508,7 @@ a.awilo_fn_circle_link:hover:after{
 	float: left;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	text-decoration: none;
-	color: #3062d7;
+	color: #00e3b2;
 	font-size: 18px;
 	font-weight: 600;
 	border-radius: 2px;
@@ -530,7 +529,7 @@ a.awilo_fn_circle_link:hover:after{
 	transition: all .4s ease;
 	float: left;
 	padding: 0 37px;
-	border: 2px solid #3062d7;
+	border: 2px solid #00e3b2;
 	border-radius: 8px;
 }
 .awilo_fn_wrapper .awilo_fn_main_button span:nth-child(1){
@@ -584,14 +583,14 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_about .about_menu a{
 	text-decoration: none;
 	color: #aab1b8;
-	font-size: 18px;
+	font-size: 1rem;
 	line-height: 24px;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	display: block;
 	transition: all .3s ease;
 }
 .awilo_fn_about .about_menu a:hover{
-	color: #416eda;
+	color: #00e3b2;
 }
 .awilo_fn_about .about_right{
 	width: 50%;
@@ -648,7 +647,7 @@ a.awilo_fn_circle_link:hover:after{
 }
 
 #about .awilo_fn_title_raon{
-	margin-bottom: 2rem
+	margin-bottom: 2rem;
 }
 
 
@@ -798,6 +797,9 @@ a.awilo_fn_circle_link:hover:after{
 #mission .awilo_fn_title_raon{
 	margin-bottom: 2rem;
 }
+#awards .awilo_fn_title_raon{
+	margin-bottom: 2rem;
+}
 /*---------------------------------------------------*/
 /*	06) Shortcode: Service
 /*---------------------------------------------------*/
@@ -835,7 +837,7 @@ a.awilo_fn_circle_link:hover:after{
 	clear: both;
 	height: 100%;
 	border-radius: 0.5rem;
-	border: 4px solid rgba(255,255,255,.05);
+	border: 4px solid rgba(14,31,73,0.6);
 	padding: 5rem 2.5rem;
 	position: relative;
 	transition: all .3s ease;
@@ -844,6 +846,7 @@ a.awilo_fn_circle_link:hover:after{
 
 .awilo_fn_services .s_item:hover{
 	background: rgba(0, 228, 178, 0.08);
+	border: 4px solid rgba(0, 228, 178,0.8);
 	transform: translate3d(0px,-5px,0px);
 }
 .awilo_fn_services .s_item .s_counter{
@@ -876,7 +879,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_services .s_item h3{
 	margin: 0;
 	padding: 0;
-	font-family: 'Rubik';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	color: #eee;
 	font-size: 1.5rem;
 	line-height:1.5;
@@ -895,6 +898,7 @@ a.awilo_fn_circle_link:hover:after{
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	margin-bottom: 2rem;
 }
+
 .awilo_fn_services .s_item .s_btn a{
 	margin-bottom:0.725rem;
 	display: block;
@@ -1041,6 +1045,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 5rem 2.5rem 10rem 2.5rem;
 	position: relative;
 	transition: all .3s ease;
+	display:grid;
 }
 
 .awilo_fn_b2c .s_item:hover{
@@ -1094,15 +1099,18 @@ a.awilo_fn_circle_link:hover:after{
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-weight: 400;
 }
+
 .awilo_fn_b2c .s_item .s_btn a{
-	margin: 2rem 0 0 0;
+	margin-bottom:0.725rem;
 	display: block;
 	float: left;
 	font-size: 1rem;
 	color: #00e3b2;
 	line-height: 24px;
 	text-decoration: none;
+	
 }
+
 /*---------------------------------------------------*/
 /*	07) Shortcode: Skills
 /*---------------------------------------------------*/
@@ -1232,7 +1240,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_portfolio_grid ul li.tmwide100{width: 100%;}
 
 .awilo_fn_portfolio_grid .list_item{
-	border-radius: 5px;
+	border-radius: 0.5rem;
 }
 .awilo_fn_portfolio_grid .list_item,
 .awilo_fn_portfolio_grid .list_item .img_holder{
@@ -1250,11 +1258,11 @@ a.awilo_fn_circle_link:hover:after{
 	width: 500px;
 	max-width: 88%;
 	position: absolute;
-	z-index: 5;
+	z-index: 7;
 	top: 50%;
 	left: 50%;
 	transform: translate3d(-50%,-50%,0) scale(0.6);
-	padding: 2rem 1.25rem;
+	padding: 1.25rem;
 	text-align: center;
 	opacity: 0;
 	transition: transform .4s ease, opacity 0.6s ease;
@@ -1278,9 +1286,11 @@ a.awilo_fn_circle_link:hover:after{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: #000;
-	border-radius: 5px;
+	background-color: rgba(0,0,0,0.88);
+	border-radius: 0.5rem;
 	position: absolute !important;
+	transform: translate(0px,0px) !important;
+
 }
 .awilo_fn_portfolio_grid .list_item:hover .title_holder{
 	transform: translate3d(-50%,-50%,0) scale(1);
@@ -1304,9 +1314,9 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_portfolio_grid .list_item .title_holder p{
 	margin: 0;
 	padding: 0;
-	color: #bbb;
+	color: #aab1b8;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
-	font-size: 16px;
+	font-size: 1rem;
 	letter-spacing: 0;
 	margin-bottom: 4px;
 }
@@ -1315,18 +1325,17 @@ a.awilo_fn_circle_link:hover:after{
 	color: inherit;
 }
 .awilo_fn_portfolio_grid .list_item .title_holder p a:after{
-	background-color: #bbb;
+	background-color: #aab1b8;
 }
 .awilo_fn_portfolio_grid .list_item .title_holder h3{
 	margin: 0;
 	padding: 0;
-	font-size: 24px;
-	font-family: 'Rubik';
+	font-size: 1.5rem;
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	letter-spacing: 0;
-	font-weight: 400;
+	font-weight: 500;
 }
 .awilo_fn_portfolio_grid .list_item .title_holder h3 a{
-	color: #eee;
 	text-decoration: none;
 	transition: all .3s ease;
 }
@@ -1337,7 +1346,7 @@ a.awilo_fn_circle_link:hover:after{
 .awilo_fn_portfolio_grid ul li.tmwide66 .list_item .title_holder h3,
 .awilo_fn_portfolio_grid ul li.tmwide75 .list_item .title_holder h3,
 .awilo_fn_portfolio_grid ul li.tmwide100 .list_item .title_holder h3{
-	font-size: 30px;
+	font-size: 1.5rem;
 }
 
 /*---------------------------------------------------*/
@@ -1400,14 +1409,18 @@ a.awilo_fn_circle_link:hover:after{
 	border-bottom: 1px solid rgba(255,255,255,.1);
 }
 .awilo_fn_experience .e_list .e_item span{
-	width: 33.3333%;
 	float: left;
 	padding-right: 10px;
 	font-size: 18px;
 	letter-spacing: 0;
 	color: #aab1b8;
 }
+.awilo_fn_experience .e_list .e_item span.e_item_a{
+	width: 20%;
+}
+
 .awilo_fn_experience .e_list .e_item span.e_item_b{
+	width:80%;
 	color: #eee;
 }
 .awilo_fn_experience .e_list ul li:last-child .e_item{
@@ -1611,44 +1624,6 @@ a.awilo_fn_circle_link:hover:after{
 }
 
 /*---------------------------------------------------*/
-/*	12) 5 stars
-/*---------------------------------------------------*/
-.awilo_fn_review{
-	width: 100%;
-	float: left;
-	clear: both;
-}
-.awilo_fn_review .review_in{
-	width: 100px;
-	height: 20px;
-	position: relative;
-	overflow: hidden;
-}
-.awilo_fn_review .awilo_fn_svg{
-	width: 100px;
-	height: 20px;
-	display: block;
-}
-.awilo_fn_review .rating_relative{
-	position: absolute;
-	right: 0;
-	top: 0;
-	overflow: hidden;
-}
-.awilo_fn_review .rating_absolute{
-	position: absolute;
-	z-index: 5;
-	overflow: hidden;
-	top: 0;
-	left: 0;
-}
-.awilo_fn_review .rating_relative .awilo_fn_svg{
-	
-}
-.awilo_fn_review .rating_absolute .awilo_fn_svg{
-	color: #ffba00;
-}
-/*---------------------------------------------------*/
 /*	13) Shortcode: Blog List
 /*---------------------------------------------------*/
 .awilo_fn_blog_list{
@@ -1786,13 +1761,14 @@ a.awilo_fn_circle_link:hover:after{
 	margin: 0;
 	padding: 0;
 	font-size: 30px;
-	font-family: 'Rubik';
+	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	letter-spacing: 0;
 	font-weight: 400;
 	line-height: 1.2;
+	color:#dee0e3;
 }
 .awilo_fn_blog_list .title_wrapper .title_holder h3 a{
-	color: #eee;
+	color: #dee0e3;
 	text-decoration: none;
 	font-family: inherit;
 	letter-spacing: inherit;
@@ -1816,6 +1792,7 @@ a.awilo_fn_circle_link:hover:after{
 	min-height: 100px;
 }
 @media(min-width:769px){
+
 	.awilo_fn_blog_list .blog_item:hover .title_wrapper .title_holder p{
 		color: #bbb;
 	}
@@ -1843,6 +1820,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 10rem 0;
 	background-color:#000;
 }
+
 /*---------------------------------------------------*/
 /*	14) Shortcode: Contact Form
 /*---------------------------------------------------*/
@@ -1978,7 +1956,7 @@ input.button-form:hover {
 	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(14,31,73) 100%);
 }
 .awilo_fn_big_text h3 {
-	margin: 0;
+	margin: 0 0 0.5rem 0;
 	padding: 0;
 	max-width: 745px;
 	font-size: 4rem;
@@ -1994,7 +1972,7 @@ input.button-form:hover {
 	padding: 0;
 	max-width: 745px;
 	font-size: 1.5rem;
-	line-height: 80px;
+	line-height: 1.25;
 	letter-spacing: -0.25px;
 	font-family: "Pretendard Variable", Pretendard, -apple-system, BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI", "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
 	font-weight: 500;
@@ -2021,8 +1999,8 @@ input.button-form:hover {
 	display: block;
 	border-radius: 0.25rem;
 	background-color:rgba(26,57,134,0.2);
-	-webkit-backdrop-filter: blur(5px);
-	backdrop-filter: blur(5px);
+	-webkit-backdrop-filter: blur(0.5rem);
+	backdrop-filter: blur(0.5rem);
 	transition: all .3s ease;
 }
 .awilo_fn_totop:hover{
@@ -2373,7 +2351,7 @@ input.button-form:hover {
 		padding: 93px 0 80px 0;
 	}
 	#mission{
-		padding: 16rem 0;
+		padding: 10rem 0;
 	}
 	.awilo_fn_services ul li{
 		width: 50%;
@@ -2381,21 +2359,24 @@ input.button-form:hover {
 	.awilo_fn_mission ul li{
 		width: 50%;
 	}
+	.awilo_fn_b2c ul li{
+		width: 50%;
+	}
 	#portfolio{
-		padding: 16rem 0;
+		padding: 10rem 0;
 	}
 	#project{
-		padding: 16rem 0;
+		padding: 10rem 0;
 	}
 
 	#awards{
-		padding: 16rem 0;
+		padding: 10rem 0;
 	}
 	#contact{
-		padding: 93px 0 81px 0;
+		padding: 10rem 0;
 	}
 	#partners{
-		padding: 91px 0 95px 0;
+		padding: 10rem 0;
 	}
 }
 
@@ -2410,72 +2391,53 @@ input.button-form:hover {
 		right: 10px;
 	}
 	.awilo_fn_title_yellow h5{
-		font-size: 2rem;
-		line-height: 1.1;
+		font-size: 1.75rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_about .about_left h3,
 	.awilo_fn_title_yellow h3{
-		font-size: 40px;
-		line-height: 1.1;
+		font-size: 2.25rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_title_blue h5{
-		font-size: 2rem;
-		line-height: 1.1;
+		font-size: 1.75rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_title_blue h3{
-		font-size: 40px;
-		line-height: 1.1;
+		font-size: 2.25rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_title_red h5{
-		font-size: 2rem;
-		line-height: 1.1;
+		font-size: 1.75rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_title_red h3{
-		font-size: 40px;
-		line-height: 1.1;
+		font-size: 2.25rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_title_green h5{
-		font-size: 2rem;
-		line-height: 1.1;
+		font-size: 1.75rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_title_green h3{
-		font-size: 40px;
-		line-height: 1.1;
-	}
-	.awilo_fn_portfolio_grid ul{
-		margin-left: -20px;
-	}
-	.awilo_fn_portfolio_grid ul li{
-		padding-left: 20px;
-		margin-bottom: 20px;
-	}
-	.awilo_fn_portfolio_grid .list_item .title_holder{
-		opacity: 1;
-		transform: none !important;
-		left: 0;
-		bottom: 0;
-		width: 100%;
-		max-width: 100%;
-		top: auto;
-	}
-	.awilo_fn_portfolio_grid .list_item .title_holder .title_abs{
-		transform: scale(1) !important;
-	}
-	.awilo_fn_portfolio_grid .list_item .title_holder .title_abs div{
-		transform: translate(0px,0px) !important;
-		border-radius: 0;
-	}
-	.awilo_fn_blog_list .blog_item_in{
-		padding-left: 0;
-	}
-	.awilo_fn_blog_list .blog_item .b_counter{
-		display: none;
+		font-size: 2.25rem;
+		line-height: 1.25;
 	}
 	.awilo_fn_big_text h3{
-			font-size: 3rem;
-			line-height: 125%;
+		font-size: 2.25rem;
+		line-height: 1.25;
+	}
+	.awilo_fn_title_raon h5{
+		font-size: 1.75rem;
+		line-height: 1.25;
+	}
+	.awilo_fn_title_raon h3{
+		font-size: 2.25rem;
+		line-height: 1.25;
 	}
 }
+
+
 @media(max-width: 768px){
 	.awilo_fn_wrapper.opened .awilo_fn_content{
 		padding-right: 0;
@@ -2484,13 +2446,22 @@ input.button-form:hover {
 		width: 100%;
 		right: -100%;
 	}
+
+	.awilo_fn_about .about_left .about_desc p{
+		font-size:1rem;
+	}
+
 	.awilo_fn_info_list li{
+		width: 100%;
+	}
+
+	.awilo_fn_b2c ul li{
 		width: 100%;
 	}
 
 	.awilo_fn_about .about_in{
 		background-image: url("../img/main-mobile.png");
-		background-size:100% auto; 
+		background-size:100% auto;
 	}
 
 	.awilo_fn_about .about_left{
@@ -2525,7 +2496,7 @@ input.button-form:hover {
 	}
 	.awilo_fn_mission .s_item{
 		padding: 4rem 2rem 25rem 2rem;
-	}x
+	}
 }
 @media(min-width: 666px){
 
@@ -2614,7 +2585,7 @@ input.button-form:hover {
 	text-align:center;
 	background-color:rgba(26,57,134,0.2);
 	padding: 0.5rem;
-	backdrop-filter: blur(8px);
+	backdrop-filter: blur(0.5rem);
 	border-radius: 0.5rem;
 
 	-webkit-transition: background-color .3s ease-in-out;
@@ -2642,8 +2613,8 @@ input.button-form:hover {
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.64);
-	backdrop-filter: blur(8px);
-    z-index: 8;
+	backdrop-filter: blur(0.5rem);
+    z-index: 6;
 	-webkit-transition: backdrop-filter .3s ease-in-out;
 	-moz-transition: backdrop-filter .3s ease-in-out;
 	-o-transition: backdrop-filter .3s ease-in-out;
@@ -2653,7 +2624,9 @@ input.button-form:hover {
   
   .video-container {
     text-align: center;
-    margin-top: 100px;
+    /* margin-top: 100px; */
+	z-index: 16;
+
   }
   
   .video-popup {
@@ -2698,5 +2671,5 @@ input.button-form:hover {
   }
 
   .cursor{
-	cursor: pointer;
+	cursor: pointer!important;
   }
