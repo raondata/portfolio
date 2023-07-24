@@ -841,7 +841,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 5rem 2.5rem;
 	position: relative;
 	transition: all .3s ease;
-	display:grid;
+	display:block;
 }
 
 .awilo_fn_services .s_item:hover{
@@ -1045,7 +1045,7 @@ a.awilo_fn_circle_link:hover:after{
 	padding: 5rem 2.5rem 10rem 2.5rem;
 	position: relative;
 	transition: all .3s ease;
-	display:grid;
+	display: block;
 }
 
 .awilo_fn_b2c .s_item:hover{
@@ -2654,6 +2654,9 @@ input.button-form:hover {
 		width: 80%;
         height: 50%;
   	}
+	  .awilo_fn_services .s_item{
+		display:grid;
+	  }
   }
   
   .close-btn {
@@ -2673,3 +2676,5 @@ input.button-form:hover {
   .cursor{
 	cursor: pointer!important;
   }
+
+
