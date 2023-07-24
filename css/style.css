@@ -787,11 +787,11 @@ a.awilo_fn_circle_link:hover:after{
 	font-weight: 400;
 }
 
-#information .awilo_fn_title{
-	margin-bottom: 100px;
+#information .awilo_fn_title_raon{
+	margin-bottom: 5rem;
 }
-#mission .awilo_fn_title{
-	margin-bottom: 100px;
+#mission .awilo_fn_title_raon{
+	margin-bottom: 5rem;
 }
 /*---------------------------------------------------*/
 /*	06) Shortcode: Service
@@ -1083,7 +1083,7 @@ a.awilo_fn_circle_link:hover:after{
 	background-color: #000;
 }
 #mission{
-	padding: 180px 0 180px 0;
+	padding: 10rem 0 10rem 0;
 	background-color: #000;
 }
 
@@ -1487,12 +1487,12 @@ a.awilo_fn_circle_link:hover:after{
 
 
 #portfolio{
-	padding: 193px 0 195px 0;
+	padding: 10rem 0;
 	background-color: #000;
 }
 
 #project{
-	padding: 193px 0 195px 0;
+	padding: 10rem 0;
 	background-color: #000;
 }
 
@@ -1565,7 +1565,7 @@ a.awilo_fn_circle_link:hover:after{
 	left: 0;
 	right: 0;
 	bottom: 0;
-	background-color: rgba(255,255,255,.1);
+	background-color: rgba(255,255,255,.2);
 	height: 1px;
 }
 .awilo_fn_blog_list li:last-child .blog_item:after{
@@ -1725,8 +1725,9 @@ a.awilo_fn_circle_link:hover:after{
 		border-radius: 0;
 	}
 }
-#blog{
-	padding: 193px 0 150px 0;
+#awards{
+	padding: 10rem 0;
+	background-color:#000;
 }
 /*---------------------------------------------------*/
 /*	14) Shortcode: Contact Form
@@ -2258,7 +2259,7 @@ input.button-form:hover {
 		padding: 93px 0 80px 0;
 	}
 	#mission{
-		padding: 93px 0 80px 0;
+		padding: 50rem 0 50rem 0;
 	}
 	.awilo_fn_services ul li{
 		width: 50%;
@@ -2272,7 +2273,7 @@ input.button-form:hover {
 	#project{
 		padding: 93px 0 95px 0;
 	}
-	#blog{
+	#awards{
 		padding: 93px 0 50px 0;
 	}
 	#contact{
